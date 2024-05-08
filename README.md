@@ -1,2 +1,2 @@
-# qiskit_qfl
- Quantum FL Experiment
+# Quantum Federated Learning Experiments in the Cloud
+

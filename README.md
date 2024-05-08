@@ -7,5 +7,5 @@ The background details are discussed later in Sec.~\ref{Sec:3} with implementati
 
 In the proposed QFL realization, clients transform their unique data into quantum states using a Feature Map, then process them with a parameterized quantum circuit (Ansatz) where local training is conducted using Qiskit and the updated weights are aggregated centrally, and global weights are returned to clients for local model updates.
 \includegraphics[width=0.59\columnwidth]{quant_1.png}
-# A high level view of local learning in the proposed QFL Process consisting of several key components. The \textit{Feature Map} ingests input data and encodes it into a quantum state. Following this, the \textit{Ansatz} comes into play as a parameterized quantum circuit, with its parameters being iteratively fed by the\textit{ Optimizer}--optimization objective function is driven by the outcomes from the \textit{Sampler}.}
+# A high level view of local learning in the proposed QFL Process consisting of several key components. The Feature Map ingests input data and encodes it into a quantum state. Following this, the Ansatz comes into play as a parameterized quantum circuit, with its parameters being iteratively fed by the Optimizer--optimization objective function is driven by the outcomes from the Sampler.
 

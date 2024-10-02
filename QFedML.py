@@ -15,7 +15,7 @@ from qiskit.circuit.library import ZZFeatureMap, RealAmplitudes
 from qiskit_algorithms.optimizers import COBYLA
 from qiskit_machine_learning.algorithms.classifiers import VQC
 from functools import partial
-from qiskit import Aer
+from qiskit_aer import AerSimulator
 from qiskit_machine_learning.circuit.library import RawFeatureVector
 from qiskit.primitives import Sampler
 import argparse
@@ -134,7 +134,7 @@ max_train_iterations = args.max_train_iterations
 samples_per_epoch = args.samples_per_epoch
 ansatz_reps = args.ansatz_reps
 
-backend = Aer.get_backend('aer_simulator')
+backend = AerSimulator()
 fl_avg_weight_range = [0.1, 1]
 
 # Create a list of clients with seperate data

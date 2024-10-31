@@ -1,0 +1,9 @@
+genomic_benchmarks==0.0.9
+matplotlib==3.9.2
+numpy==1.23.5
+qiskit==1.2.0
+qiskit_aer==0.15.0
+qiskit_algorithms==0.3.0
+qiskit_machine_learning==0.7.2
+tensorflow==2.14.1
+
